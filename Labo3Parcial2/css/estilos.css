@@ -1,0 +1,158 @@
+#alta
+{
+    background-color: rgb(235, 116, 205);
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 20%;
+}
+#checkear
+{
+    background-color: gainsboro;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#tabla
+{ 
+    background-color: gainsboro;
+    border-collapse: collapse;  
+    border: 1px solid rgb(88, 17, 56);
+    padding: 10px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%; 
+   
+   
+    justify-content: center;
+    z-index: -1; 
+}
+
+tr:nth-child(even)
+{
+    background-color: black;
+    color: rgb(193, 128, 247);
+}
+#th, td
+{
+    border-collapse: collapse;  
+    border: 1px solid rgb(88, 17, 56);
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+
+#contenedorfiltros
+{
+   justify-content: space-between;
+   
+    padding-left: 10px;
+    background: whitesmoke;
+    
+    width: 100%;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    top:25%; 
+    left:25%; 
+    right:25%;
+}
+#contenedorAgregar
+{
+    
+    position: fixed;
+    flex-wrap: wrap; 
+    
+    padding-left: 10px;
+    background: whitesmoke;
+    
+    width: 50%;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 12px 12px 5px 0px rgba(0,0,0,0.75);
+    top:25%; 
+    left:25%; 
+    right:25%;
+    z-index: 998;
+}
+
+#divUser
+{
+    width: 100%;
+}
+
+#cerrar
+{
+    background-color: red;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 5%;
+  
+}
+
+
+
+#divCerrar
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#divbotones
+{
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#btnCerrarAbajo
+{
+    background-color: red;
+    border: 1px solid black;
+    color: white;
+    width: 45%;
+    text-align: center;
+    font-size: 16px;
+  
+    cursor: pointer;
+   
+}
+
+#btnGuardar
+{
+    background-color: rgb(0, 255, 21);
+    border: 1px solid black;
+    color: white;
+    width: 45%;
+    text-align: center;
+    font-size: 16px;
+    
+    cursor: pointer;
+   
+}
+
+
+#h1
+{
+    width: 100%;
+    left: 25%;
+    right: 25%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: rgb(240, 23, 240);
+}
+
+#login
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(235, 77, 169);
+    color: black;
+    width: 25%;
+}
+
+

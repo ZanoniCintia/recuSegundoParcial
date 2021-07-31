@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Zanoni</title>
+        <link rel="stylesheet" href="css/estilos.css"/> 
+        <script src="persona.js"></script>
+        <script src="cliente.js"></script>
+        <script src="Metodos.js"></script>
+    </head>
+    <body>
+        <div id = "alta">
+            <input type="button" value = "Alta" id = "alta" name="alta">
+            <br>
+        </div>
+    <div class = "container-fluid" id= "contenedorfiltros" >
+            Filtro de Personas:
+            <select name="select" id ="tipoFiltro" enable>
+                <option value="Ninguno">Ninguno</option> 
+                <option value="Masculino">Masculino</option> 
+                <option value="Femenino">Femenino</option>
+              </select>
+            Promedio de Edades
+            <input type="text" id = "precioFiltro" name="precio">
+            <input type="button" value = "Calcular" id = "filtro" name="filtro">
+            <input type="button" value = "Limpiar lista" id = "limpiar" name="limpiar">
+        
+    </div>
+        <div class = "container-fluid" id= "contenedorAgregar" hidden="true">
+            <div id = "divCerrar">
+                <input type="button" value = "x" id = "cerrar" name="cerrar">
+                <br>
+            </div>
+            <div id = "divVehiculo">
+                Alta Vehiculo:
+                <div id = "divId">
+                    Id:
+                    <input type="text" id = "id" name="id" disabled>
+                    <br>
+                </div>
+                <div id = "divMarca">
+                    Nombre:
+                    <input type="text" id = "nombre" name="marca">
+                    <br>
+                </div>
+                <div id = "divModelo">
+                    Apellido:
+                    <input type="text" id = "apellido" name="modelo">
+                    <br>
+                </div>
+                <div id = "divPrecio">
+                    Edad:
+                    <input type="text" id = "edad" name="precio">
+                    <br>
+                </div>
+                
+                <select name="select" id ="sexo" enable>
+                    <option value="Femenino" selected>Femenino</option> 
+                    <option value="Masculino">Masculino</option>
+                  </select>
+
+                
+                <br>
+               
+            </div>
+            
+            <div id = "divbotones">
+                <input type="button" value = "Agregar" id = "btnGuardar" name="btnGuardar">
+                <input type="button" value = "Cerrar" id = "btnCerrarAbajo" name="btnCerrarAbajo">
+                <br>
+            </div>
+        </div>
+        
+        <div id="checkear">
+            CAMPOS MOSTRADOS Tildar los campos a mostrar
+            <input type="checkbox" id="idCheck" name="idCheck" >
+            ID
+            <input type="checkbox" id="nombreCheck" name="nombreCheck">
+            Nombre
+            <input type="checkbox" id="apellidoCheck" name="apellidoCheck">
+            Apellido
+            <input type="checkbox" id="edadCheck" name="edadCheck">
+            Edad
+            <br>
+        </div>
+        <div class = "container-fluid" id= "contBtn" >
+            <h1 id = "h1">Lista de Personas</h1>
+        </div>
+        <table id="tabla">
+            <thead>
+                <tr id="headersTable">
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                    <th>Sexo</th>
+                    <th> Accion</th>
+                </tr>
+            </thead>
+            
+            <tbody id="tbody"></tbody>   
+            
+        </table>
+    </body>
+</html>
